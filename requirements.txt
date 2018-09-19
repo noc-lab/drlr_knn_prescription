@@ -1,0 +1,4 @@
+joblib>=0.12
+scikit-learn>=0.19
+tqdm
+gurobi
