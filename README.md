@@ -19,8 +19,9 @@ and frequently used functions are defined in ``drlr_knn_prescription`` package
 In details,
 
 a. The **preprocessed** data is store in the BMC server and the scripts will automatically locate them once run in the BMC
- server. This repo dose not contain the code used for preprocessing. Detailed path can be found in the script ``drlr_knn_prescription/load_table.py``. The function will be called automatically
- and no need to run this scripts. 
+server. This repo dose not contain the code used for preprocessing. Detailed path can be found in the script
+``drlr_knn_prescription/load_table.py``. The corresponding function will be called automatically
+ and there is no need to run this script. 
  
 b. the model and the result will be generated in the folder specified by the flag ``--save_dir``. The detailed name of
 the output can be found at scripts in the examples.
